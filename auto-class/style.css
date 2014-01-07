@@ -1,0 +1,345 @@
+/*CSS RESET*/
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+/*//ESTILOS GERAIS//////////////////////////////////////////////////////////////////////////////////*/
+
+body {
+	background:#f0f2f1;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif, verdana;
+	text-align:center;
+}
+
+#container {
+	background: url("imagens/header_main_bg.png") repeat-x;
+	clear:both;
+	float:left;
+	height:100%;
+	width:100%;
+}
+
+#main {
+	margin:0 auto;
+	min-height:940px;
+	width:955px;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+/*//ESTILOS DO TOPO//////////////////////////////////////////////////////////////////////////////////*/
+
+#header {
+	height:170px;
+}
+
+.logo a {
+	background:url("imagens/autoclass_logo.png") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:147px;
+	margin:20px 0 0 20px;
+	text-indent:-9999px;
+	width:289px;
+}
+
+#menu {
+	background:#313131;
+	float:right;
+	font:bold 14px "Trebuchet MS", Arial, Helvetica, sans-serif, verdana;
+	height:110px;
+	padding-left:60px;
+	width:505px;
+}
+
+#menu li {
+	display:inline;
+}
+
+#menu li a {
+	border:dashed 0px #090;
+	color:#bfc1c0;
+	float:left;
+	height:75px;
+	margin:0 20px 0 20px;
+	padding-top:43px;
+	width:70px;
+}
+
+#menu li a:hover {
+	background: #bfc1c0;
+	color: #313131;
+}
+
+/*//ESTILOS DO CONTEUDO PRINCIPAL E SLIDE SHOW//////////////////////////////////////////////////////////////////////////////////*/
+
+#conteudo-principal {
+	float:left;
+	margin-top:22px;
+	width:955px;
+}
+
+.slides_container {
+		width:955px;
+        height:385px;
+		border:solid 1px #fff;
+		background:#fff;
+}
+
+.submenu {
+	float: left;
+}
+
+.submenu li {
+	float: left;
+	margin-bottom:30px;
+}
+
+.submenu .destaque {
+	background: #4c3b2b;
+	color: #fef6f3;
+	height: 57px;
+	padding-top:30px;
+	text-align:center;
+	width: 320px;
+}
+
+.submenu .ver-todos {
+	background: #797979;
+	color: #fef6f3;
+	height:57px;
+	padding-top:30px;
+	text-align:center;
+	width: 165px;
+}
+
+.submenu .atendimento-online {
+	background: #000000;
+	border-radius: 0 0 30px 0;
+	/*para rodar a propriedade borda arredondada nos navegadores Opera e IE*/
+	-o-border-radius: 0 0 30px 0;
+	-ms-border-radius: 0 0 30px 0;
+	color: #fef6f3;
+	height: 45px;
+	left:220px;
+	padding-top:23px;
+	position:relative;
+	text-align:center;
+	width: 252px;
+}
+
+.destaque a:hover {
+ 	color:#998674;
+ }
+
+ .ver-todos a:hover {
+ 	color:#494949;
+ }
+
+.submenu .atendimento-online:hover {
+	background:#c59c63;
+}
+
+.submenu_internas .atendimento-online:hover {
+	background:#c59c63;
+}
+
+#tabela_carros {
+	padding:0;
+	text-align:left;
+	width:955px;
+	float:left;
+}
+
+#tabela_carros td {
+	background:#fff;
+	border:solid 1px #636565;
+	float:left;
+	width:299px;
+	margin-bottom:30px;
+}
+
+#tabela_carros td.mei {
+	margin:0 24px 0 24px;
+}
+
+#tabela_carros span {
+	background:#636564;
+	color: #f0f2f1;
+	float:left;
+	font-size:12px;
+	height:25px;
+	padding:11px 0 0 9px;
+	text-transform:uppercase;
+	width:290px;
+}
+
+/*//ESTILOS DO FOOTER//////////////////////////////////////////////////////////////////////////////////*/
+
+#footer {
+	background:url("imagens/footer_background.png") repeat-x #afb3b4;
+	float:left;
+	margin-top:50px;
+	width:100%;
+}
+
+#footer_container{
+	margin:0 auto;
+	min-height:150px;
+	padding-top:10px;
+	width:955px;
+}
+
+.menu_footer {
+	float:left;
+	margin-top:35px;
+	padding:0px;
+	text-align:left;
+}
+
+.menu_footer li {
+	color:#636565;
+	display:inline;
+	font-size:12px;
+	padding-right:59px;
+	text-transform:uppercase;
+}
+
+.menu_footer li a{
+	color:#636565;
+}
+
+.menu_footer a:hover {
+	color:#fff;
+}
+
+.logo_whap a {
+	background:url("imagens/logo_whap.png") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:23px;
+	margin:100px 0px 0px -435px;
+	text-indent:-9999px;	
+	width:143px;
+	
+	border:solid 0px #909;
+}
+
+.endereco {
+	float: right;
+	color:#FFF;
+	width: 250px;
+	margin-top: 35px;
+	padding-right:50px;
+	text-align: right;
+}
+
+/*///ESTILOS DA PAGINA EMPRESA/////////////////////////////////////////////////////////////////////////////////*/
+
+#container_internal{
+	background: url("imagens/header_secondary_bg.png") repeat-x;
+	clear:both;
+	float:left;
+	height:100%;
+	width:100%;
+}	
+
+#conteudo-principal_empresa {
+	border:dashed 0px #900;
+	float:left;
+	margin-top:45px;
+	width:955px;
+}
+
+#conteudo-principal_empresa p {
+	margin-bottom:25px;
+}
+
+.submenu_internas{
+	float: left;
+	margin-bottom:50px;
+}
+
+.submenu_internas li {
+	float: left;
+}
+
+.submenu_internas .nome {
+	background: #4c3b2b;
+	color: #fef6f3;
+	height: 57px;
+	padding-top:30px;
+	text-align:center;
+	width: 320px;
+}
+
+.submenu_internas .atendimento-online {
+	background:#000000;
+	border-radius:0 0 30px 0;
+	/*para rodar a propriedade borda arredondada nos navegadores Opera e IE*/
+	-o-border-radius:0 0 30px 0;
+	-ms-border-radius:0 0 30px 0;
+	color:#fef6f3;
+	height:45px;
+	left:382px;
+	padding-top:23px;
+	position:relative;
+	text-align:center;
+	width:252px;
+}
+	
+#texto {
+		float:left;
+		width:520px;
+		color:#656565;
+		text-align:justify;
+}
+
+#foto {
+	float:left;
+	border:solid 2px #fff;
+	margin-left:70px;
+}
+
+/*///ESTILOS DA PAGINA VITRINE/////////////////////////////////////////////////////////////////////////////////*/
+
+#carros_vitrine{
+	float: left;
+	margin-top: 30px;
+	width: 100%;
+}
+
+#carros_vitrine .car_esq {
+	border:solid 1px #636565;
+	float:left;
+	height:235px;
+	margin-bottom:15px;
+}
+
+#carros_vitrine .car_mei {
+	border:solid 1px #636565;
+	float:left;
+	height:235px;	
+	margin:0 0 15px 25px;
+}
+
+#carros_vitrine .car_dir {
+	border:solid 1px #636565;
+	float:right;
+	height:235px;
+	margin-bottom:15px;
+}
+
+#carros_vitrine .model {
+	background: #636564;
+	color: #f0f2f1;
+	font-size:12px;
+	height:25px;
+	padding:11px 0 0 9px;
+	text-align:left;
+	text-transform:uppercase;
+}
