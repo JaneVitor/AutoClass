@@ -7,7 +7,7 @@
 	text-decoration: none;
 }
 
-/*//ESTILOS GERAIS//////////////////////////////////////////////////////////////////////////////////*/
+/*//ESTILOS GERAIS////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 body {
 	background:#f0f2f1;
@@ -25,7 +25,6 @@ body {
 
 #main {
 	margin:0 auto;
-	min-height:940px;
 	width:955px;
 }
 
@@ -33,7 +32,7 @@ a {
 	color: #FFFFFF;
 }
 
-/*//ESTILOS DO TOPO//////////////////////////////////////////////////////////////////////////////////*/
+/*//ESTILOS DO TOPO////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 #header {
 	height:170px;
@@ -76,7 +75,7 @@ a {
 	color: #313131;
 }
 
-/*//ESTILOS DO CONTEUDO PRINCIPAL E SLIDE SHOW//////////////////////////////////////////////////////////////////////////////////*/
+/*//ESTILOS DO CONTEUDO PRINCIPAL E SLIDE SHOW////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 #conteudo-principal {
 	float:left;
@@ -85,10 +84,10 @@ a {
 }
 
 .slides_container {
-		width:955px;
-        height:385px;
-		border:solid 1px #fff;
-		background:#fff;
+	width:955px;
+  height:385px;
+	border:solid 1px #fff;
+	background:#fff;
 }
 
 .submenu {
@@ -179,7 +178,7 @@ a {
 	width:290px;
 }
 
-/*//ESTILOS DO FOOTER//////////////////////////////////////////////////////////////////////////////////*/
+/*//ESTILOS DO FOOTER////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 #footer {
 	background:url("imagens/footer_background.png") repeat-x #afb3b4;
@@ -225,7 +224,6 @@ a {
 	margin:100px 0px 0px -435px;
 	text-indent:-9999px;	
 	width:143px;
-	
 	border:solid 0px #909;
 }
 
@@ -238,7 +236,7 @@ a {
 	text-align: right;
 }
 
-/*///ESTILOS DA PAGINA EMPRESA/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////ESTILOS DA PAGINA EMPRESA/////////////////////////////////////////////////////////////////////////////////*/
 
 #container_internal{
 	background: url("imagens/header_secondary_bg.png") repeat-x;
@@ -293,10 +291,10 @@ a {
 }
 	
 #texto {
-		float:left;
-		width:520px;
-		color:#656565;
-		text-align:justify;
+	float:left;
+	width:520px;
+	color:#656565;
+	text-align:justify;
 }
 
 #foto {
@@ -305,7 +303,7 @@ a {
 	margin-left:70px;
 }
 
-/*///ESTILOS DA PAGINA VITRINE/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////ESTILOS DA PAGINA VITRINE/////////////////////////////////////////////////////////////////////////////////*/
 
 #carros_vitrine{
 	float: left;
@@ -342,4 +340,91 @@ a {
 	padding:11px 0 0 9px;
 	text-align:left;
 	text-transform:uppercase;
+}
+/*/////////////////////ESTILOS DA PAGINA CONTATO/////////////////////////////////////////////////////////////////////////////////*/
+.form-contato{
+	border: 1px solid #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0px 0px 50px #CBC9C9;
+	-webkit-box-shadow: inset 0px 0px 53px #CBC9C9;;
+	-moz-box-shadow: inset 0px 0px 53px #CBC9C9;;
+	height: 320px;
+	padding: 10px 20px;
+	width: 920px;	
+	float: left;
+}
+.form-contato label{
+	color: #656565;
+	text-align: left;
+	font: 14px "Trebuchet MS", Arial;
+	margin: 10px 2px;
+	float: left;
+}
+.dados-usuario{
+	float: left;
+	width: 230px;
+	margin-left: 20px;
+}
+.mensagem-usuario{
+	float: right;
+	width: 400px;
+	margin-right: 20px;
+}
+.form-contato h2{
+	font-size: 18px;
+	color: #656565;
+	margin: 20px;
+}
+fieldset{
+	border: none;
+}
+input[name="nome"]{
+	width: 370px;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: inset 2px 3px 10px #ddd;
+	border: 1px solid #ddd;
+	float: left;
+}
+input[name="email"]{
+	width: 370px;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: inset 2px 3px 10px #ddd;
+	float: left;
+	border: 1px solid #ddd;
+}
+input[name="telefone"]{
+	width: 370px;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: inset 2px 3px 10px #ddd;
+	float: left;
+	border: 1px solid #ddd;
+}
+label[for="mensagem"]{
+	margin-left: 8px;
+}
+textarea{
+	border: #ddd;
+	width: 390px;
+	height: 175px;
+	border-radius: 3px;
+	box-shadow: inset 2px 3px 10px #ddd;
+}
+input[name="submit"]{
+	width: 80px;
+	padding: 10px;
+	color: #fff;
+	border: none;
+	background-color: #313131;
+	cursor: pointer;
+	text-transform: uppercase;
+	background: -webkit-gradient(linear, 1% 1%, 1% 100%, from(#313131), to(#939393));
+  background: -moz-linear-gradient(20% 70% 85deg,#939393, #313131);
+	margin-top:10px;
+	float: left;
+	margin-left: 8px;
 }
